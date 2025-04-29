@@ -62,7 +62,7 @@ Run the setup script by using the command
 ```
 python setup.py
 ```
-Run the setup script by using the command
+Install the requirements by using the command
 ```
 pip install -r requirements.txt
 ```
