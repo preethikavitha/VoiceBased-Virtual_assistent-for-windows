@@ -2,7 +2,7 @@ import speech_recognition as sr
 import pywhatkit
 import pyttsx3
 
-#pywhatkit.sendwhatmsg('phone#', 'Happy birthday!', 12, 35)
+
 speaker = pyttsx3.init()
 voices = speaker.getProperty('voices')
 speaker.setProperty('voice', voices[1].id)
@@ -26,7 +26,7 @@ def getSpeech():
         return None
     return command
 
-#l = ['yogi', '+917904975049', 'preethi', '+919345328048','siva','+919994917902','jerin','+919486693425']
+l = ['name', '+919999999999']
 
 def getNum(l, command):
     counter = 0
