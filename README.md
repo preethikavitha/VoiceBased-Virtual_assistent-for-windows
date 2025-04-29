@@ -7,6 +7,7 @@
 
 ## Features
 Our virtual voice assistant comes packed with a wide range of features, including:
+- To Athendicate Users Face to Verify the valid users.
 - Bringing a smile to your face with its ability to tell you jokes.
 - Keeping you informed with the latest news headlines.
 - Telling you your IP address, so you can stay connected.
@@ -15,7 +16,8 @@ Our virtual voice assistant comes packed with a wide range of features, includin
 - Testing your internet speed, so you can ensure you're getting the best connection.
 - Showing you your system stats, including RAM and CPU usage, battery percent, and system specifications.
 - Generating an image from the text you provide.
-- Sending emails, so you can stay in touch with friends and colleagues.
+- Sending emails with an attachments, so you can stay in touch with friends and colleagues.
+- send an whatsapp messages
 - Performing system operations, including opening, closing, and switching tabs, copying, pasting, deleting, and selecting text, creating new files, minimizing, maximizing, switching, and closing windows.
 - Taking screenshots, so you can capture important moments.
 - Giving you brief information (3 sentences) on any topic or personality.
@@ -60,7 +62,10 @@ Run the setup script by using the command
 ```
 python setup.py
 ```
-
+Run the setup script by using the command
+```
+pip install -r requirements.txt
+```
 Navigate to the `VoiceBased-Virtual_assistent-for-windows/Plugins/` directory and run the below command to start the virtual voice assistant.
 ```
 python main.py
@@ -93,9 +98,6 @@ You're all set! The virtual voice assistant should be up and running now.
         ├── requirements.txt                  # Lists the dependencies required for the project
         └── setup.py                          # Contains code for setting up the virtual voice assistant
 
-## License
 
-The code in this repository is licensed under the MIT License. This means that you are free to use, modify, and distribute the code, as long as you include the original copyright and license notice. For more information about LICENSE please click [here] (https://github.com/preethikavitha/VoiceBased-Virtual_assistent-for-windows.git)
 
-## Thanks for checking out!!
 
